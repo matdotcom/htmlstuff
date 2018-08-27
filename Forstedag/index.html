@@ -9,21 +9,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+<style>
+   img{
+       display: block;
+       margin: auto;
+   }
+
+    body{
+        max-width: 500px;
+        margin: auto;
+    }
+/* Dropdown Button */
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            padding: 16px;
+            position: center;
+    
+        }
+        
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            padding-left: 36%;
+            
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: center    ;
+            background-color: #f1f1f1;
+        
+            width: 100%;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 16px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {background-color: #6a3e8e;}
+        </style>
 </head>
 <body>
-    <h1 style="background-color: mediumaquamarine">Her er en badass forside
+    <h1 align="center" style="background-color: mediumaquamarine">Her er en badass forside text
     </h1> 
-    <h2 style="background-color:paleturquoise;color: olive">der er en paragraph under denne tekst :O </h2>
+    <h2 align="center" style="background-color:paleturquoise;color: olive">der er en paragraph under denne tekst :O </h2>
     <p>Yes this is my new paragraph.  </p>
+   
 <img src="https://media1.tenor.com/images/315d66f06bba25326e685f843fe14554/tenor.gif?itemid=7910074" alt="Smiley Face" height="420" width="420">
 <br>
+<div class="dropdown">
+        <button class="dropbtn">Links til sider</button>
+        <div class="dropdown-content">
+        <a href="side2.html">side 2</a>
+        <a href="side3.html">side 3</a>
+                    
+            </div>
+            </div>
+ <br>
 <a href="https://www.google.com"> klik for google </a>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QR53pniK71w" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<ul>
-<li><a href="side2.html"> side2</a></li>
-<li><a href="side3.html">side3</a></li>
-</ul>
 </body>
 </html>
